@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Code2, User, Cpu, Moon, Sun, Trophy, Sparkles } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Github, Linkedin, Mail, ExternalLink, Code2, User, Cpu, Moon, Sun, Sparkles } from 'lucide-react';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
