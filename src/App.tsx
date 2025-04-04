@@ -63,7 +63,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative group">
               <img
-                src="https://raw.githubusercontent.com/aleenatomy2802/portfolio/main/aleena.jpg"
+                src="./aleena.jpg"
                 alt="Profile"
                 className="rounded-lg shadow-xl transform group-hover:scale-105 transition-transform duration-300"
               />
@@ -119,23 +119,20 @@ function App() {
         </div>
       </section>
 
-      
-
       {/* Projects Section */}
-      <section className="py-20 bg-[#e0e1dd] dark:bg-gray-900 transition-colors duration-300" id="projects">
+      <section className="py-20 bg-[#778da9] dark:bg-gray-800 transition-colors duration-300" id="projects">
         <div className="container mx-auto px-6">
           <div className="flex items-center mb-12">
-            <Code2 className="w-8 h-8 text-[#1b263b] dark:text-[#e0e1dd] mr-3" />
-            <h2 className="text-4xl font-bold text-[#1b263b] dark:text-white">Projects</h2>
+            <Code2 className="w-8 h-8 text-[#e0e1dd] dark:text-[#e0e1dd] mr-3" />
+            <h2 className="text-4xl font-bold text-[#e0e1dd] dark:text-white">Projects</h2>
           </div>
-          <div className="grid md:grid-cols-1 lg:grid-cols-1 gap-8 max-w-4xl mx-auto">
-            <div 
-              className="group bg-[#778da9] dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300"
-            >
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Project Card */}
+            <div className="bg-[#415a77] dark:bg-gray-700 rounded-lg overflow-hidden shadow-xl group">
               <div className="relative overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1591453089816-0fbb971b454c?auto=format&fit=crop&w=1200&q=80"
-                  alt="AI Advisor Project"
+                  src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                  alt="AI Virtual Advisor Project"
                   className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-300" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#415a77] to-[#1b263b] opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
